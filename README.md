@@ -11,5 +11,5 @@ This docker image provides a 6tunnel server installation.
 ````bash
 docker run -d --name 6tunnel \
 	--net=host \
-	-v /path/to/6tunnel.conf:/6tunnel.conf
+	-v -d 1234 localhost 5678
 ````
